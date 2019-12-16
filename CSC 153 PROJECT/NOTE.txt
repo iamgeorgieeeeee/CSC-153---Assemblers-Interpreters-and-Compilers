@@ -1,0 +1,8 @@
+This project contains five packages: main, lexer, symbol, parser, and inter.  
+Execution begins with function main in class Main, which creates an instance parse of class Parser and instance lex of class Lexer. 
+The lexical analyzer reads the stream of characters making up the source program. 
+Symbol tables is used to hold information about the source-program constructs. 
+The parser uses components of the token produced by the lexical analyzer to create syntax-tree representation 
+with nodes represented as objects. Once syntax tree is constructed, it can be used to emit the necessary three-address code. 
+This three-address code, which is presented in this program, is a linearized representation of a syntax tree. 
+The package inter contains classes for the language constructs in the abstract syntax. 
